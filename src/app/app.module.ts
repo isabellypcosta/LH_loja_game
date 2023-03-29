@@ -19,6 +19,12 @@ import { InicioComponent } from './inicio/inicio.component';
 import { LoginComponent } from './login/login.component';
 import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
+import { RestritoComponent } from './restrito/restrito.component';
+import { CadastroProdutoComponent } from './registro/cadastro-produto/cadastro-produto.component';
+import { AtualizarProdutoComponent } from './retrito/atualizar-produto/atualizar-produto.component';
+import { ListaProdutoComponent } from './registro/lista-produto/lista-produto.component';
+import { ManuProdutoComponent } from './restrito/manu-produto/manu-produto.component';
+import { MenuProdutoComponent } from './retrito/menu-produto/menu-produto.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +32,13 @@ import { RodapeComponent } from './rodape/rodape.component';
     InicioComponent,
     LoginComponent,
     MenuComponent,
-    RodapeComponent
+    RodapeComponent,
+    RestritoComponent,
+    CadastroProdutoComponent,
+    AtualizarProdutoComponent,
+    ListaProdutoComponent,
+    ManuProdutoComponent,
+    MenuProdutoComponent
   ],
   imports: [
     BrowserModule,
